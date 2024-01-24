@@ -416,6 +416,10 @@ header .container .fa-bars {
     display: block;
 }
 
+.touchLeft form .touchInpRow label span {
+    color: red;
+}
+
 .touchLeft form .touchInpRow .touchSingleInp input {
     width: 100%;
     height: 52px;
@@ -445,6 +449,15 @@ header .container .fa-bars {
     background-color: #f4f4f5;
 }
 
+.touchLeft form .touchInpRow small {
+    font-size: 13px;
+    color: red;
+    display: none;
+}
+.touchLeft form .touchInpRow small.active {
+    display: block;
+}
+
 
 
 
@@ -458,6 +471,9 @@ header .container .fa-bars {
     font-family: 'Gilroy-Medium', sans-serif;
     color: #232323;
     margin-bottom: 15px;
+}
+.contentMethod p span {
+    color: red;
 }
 
 .contentMethod .methodItemWrap {
@@ -482,6 +498,14 @@ header .container .fa-bars {
     line-height: 28px;
     color: #666666;
     font-family: 'Gilroy-Regular', sans-serif;
+}
+
+
+.contentCaptcha {
+    width: 250px;
+    height: 100px;
+    border: 1.5px solid #141414;
+    margin-bottom: 30px;
 }
 
 
