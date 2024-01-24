@@ -13,9 +13,11 @@
 
 <body>
     <div class="overlay"></div>
+    <!-- header starts -->
     <header>
         <div class="container">
             <img src="assets/images/logo.svg" alt="" class="logo">
+            <!-- menu links -->
             <ul>
                 <li>
                     <a href="#about">About Us</a>
@@ -30,10 +32,13 @@
                     <a href="#inTouch">Get In Touch</a>
                 </li>
             </ul>
+            <!-- menu links ends -->
             <i class="fa-solid fa-bars"></i>
         </div>
     </header>
+    <!-- header ends -->
 
+    <!-- banner section starts -->
     <section id="banner">
         <div class="container">
             <h1>Welcome To <span>ProductCraft</span> Solutions</h1>
@@ -43,7 +48,9 @@
             <button>Get Started</button>
         </div>
     </section>
+    <!-- banner section ends -->
 
+    <!-- about us section starts -->
     <section id="about" class="about">
         <div class="container">
             <div class="aboutLeft">
@@ -61,7 +68,9 @@
             </div>
         </div>
     </section>
+    <!-- about us section ends -->
 
+    <!-- why choose us section starts -->
     <section id="choose" class="choose">
         <div class="container">
             <div class="chooseLeft">
@@ -86,8 +95,10 @@
             </div>
         </div>
     </section>
+    <!-- why choose us section ends -->
 
 
+    <!-- services section starts -->
     <section id="services" class="services">
         <div class="container">
             <h2>Our <span>Services</span></h2>
@@ -167,8 +178,10 @@
             </div>
         </div>
     </section>
+     <!-- services section ends -->
 
 
+      <!-- what we offer section starts -->
     <section id="offer" class="offer">
         <div class="container">
             <div class="offerLeft">
@@ -197,8 +210,10 @@
             </div>
         </div>
     </section>
+    <!-- what we offer section ends -->
 
 
+    <!-- contact us section starts -->
     <section id="inTouch" class="inTouch">
         <div class="container">
             <div class="touchLeft">
@@ -206,27 +221,37 @@
                 <p>
                     Our friendly team would love to hear from you.
                 </p>
+                <!-- contact form -->
                 <form>
+                    <p class="touchFormSug">"<span>*</span>" Indicates Required Fields</p>
                     <div class="touchInpRow">
                         <div class="touchSingleInp">
-                            <label for="name">Name <span>*</span></label>
-                            <input type="text" name="name" id="name" placeholder="First Name">
+                            <label for="name">Full Name <span>*</span></label>
+                            <input type="text" name="name" id="name">
+                            <span>First Name</span>
                             <small class="nameWarn">This Field is Required</small>
                         </div>
                         <div class="touchSingleInp">
+                            <input type="text" name="name" id="name2">
+                            <span>Last Name</span>
+                            <small class="name2Warn">This Field is Required</small>
+                        </div>
+                    </div>
+                    <div class="touchInpRow">
+                        <div class="touchSingleInp companyInp">
                             <label for="company">Company Name</label>
-                            <input type="text" name="name" id="company" placeholder="Company Name">
+                            <input type="text" name="name" id="company">
                         </div>
                     </div>
                     <div class="touchInpRow">
                         <div class="touchSingleInp">
                             <label for="mail">Email <span>*</span></label>
-                            <input type="text" name="mail" id="mail" placeholder="you@company.com">
+                            <input type="text" name="mail" id="mail">
                             <small class="mailWarn">This Field is Required</small>
                         </div>
                         <div class="touchSingleInp">
                             <label for="phone">Phone number <span>*</span></label>
-                            <input type="text" name="phone" id="phone" placeholder="+1 (555) 000-0000">
+                            <input type="text" name="phone" id="phone">
                             <small class="phoneWarn">This Field is Required</small>
                         </div>
                     </div>
@@ -259,6 +284,7 @@
                     <div class="contentCaptcha"></div>
                     <button class="touchBtn">Send A Message</button>
                 </form>
+                <!-- contact form ends -->
             </div>
             <div class="touchRight">
                 <h3>
@@ -271,8 +297,10 @@
             </div>
         </div>
     </section>
+    <!-- contact us section ends -->
 
 
+    <!-- footer section starts -->
     <footer>
         <div class="container">
             <div class="footerTop">
@@ -317,11 +345,14 @@
             </div>
         </div>
     </footer>
+    <!-- footer section ends -->
 
 
 
 
+    <!-- javascript link -->
     <script src="assets/js/main.js"></script>
+    <!-- javascript link ends -->
 </body>
 
 </html>

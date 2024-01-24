@@ -397,15 +397,26 @@ header .container .fa-bars {
     margin-bottom: 30px;
 }
 
+.touchLeft form .touchFormSug {
+    font-size: 18px;
+}
+.touchLeft form .touchFormSug span {
+    color: red;
+}
 .touchLeft form .touchInpRow {
     display: flex;
-    align-items: flex-start;
+    align-items: flex-end;
     justify-content: space-between;
     margin-bottom: 20px;
+    position: relative;
 }
 
 .touchLeft form .touchInpRow .touchSingleInp {
     width: calc(50% - 10px);
+    position: relative;
+}
+.touchLeft form .touchInpRow .touchSingleInp.companyInp {
+    width: 100%;
 }
 .touchLeft form .touchInpRow label {
     font-size: 16px;
@@ -414,10 +425,11 @@ header .container .fa-bars {
     font-family: 'Gilroy-Medium', sans-serif;
     color: #232323;
     display: block;
+    position: relative;
 }
 
 .touchLeft form .touchInpRow label span {
-    color: red;
+    color: red !important;
 }
 
 .touchLeft form .touchInpRow .touchSingleInp input {
@@ -431,6 +443,10 @@ header .container .fa-bars {
     font-family: 'Gilroy-Medium', sans-serif;
     box-shadow: 0px 1px 2px 0px #1018280D;
     background-color: #f4f4f5;
+}
+.touchLeft form .touchInpRow .touchSingleInp span {
+    font-size: 14px;
+    color: #666666;
 }
 
 .touchLeft form .touchInpRow .touchInpBig {
@@ -453,6 +469,9 @@ header .container .fa-bars {
     font-size: 13px;
     color: red;
     display: none;
+    position: absolute;
+    bottom: -17px;
+    left: 0;
 }
 .touchLeft form .touchInpRow small.active {
     display: block;
@@ -733,12 +752,11 @@ footer {
 
 
     .inTouch .container {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .touchLeft {
         width: 100%;
         padding: 0;
-        margin-bottom: 25px;
     }
     .touchLeft h2 {
         font-size: 55px;
@@ -755,6 +773,7 @@ footer {
     .touchRight {
         width: 100%;
         padding: 0;
+        margin-bottom: 25px;
     }
 
 
